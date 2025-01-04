@@ -195,7 +195,7 @@ button:active {
 @media screen and (320px < width < 768px) {
   #theme-toggler {
     top: 4px;
-    right: 7px;
+    right: 20px;
   }
 }
 
