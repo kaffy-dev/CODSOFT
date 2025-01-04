@@ -97,8 +97,13 @@ h1 {
   color: var(--theme-same-color);  
   font-size: 3rem;
   margin: 20px 0;
+  text-align: center;
 }
 
+.main-container {
+  width: 100%;
+  margin: auto;
+}
 
 .calculator {
   box-shadow: 0 4px 8px var(--calculator-shadow);
@@ -189,7 +194,14 @@ button:active {
 
 @media screen and (320px < width < 768px) {
   #theme-toggler {
-    top: 2px;
-    right: 5px;
+    top: 4px;
+    right: 7px;
+  }
+}
+
+@media screen and (width < 425px) {
+  .main-container {
+    width: 80%;
+    margin: auto;
   }
 }
